@@ -3,9 +3,9 @@ name: FFmpeg.wasm
 # events but only for the master branch
 on:
   push:
-    branches: [ n4.3.1-wasm ]
+    branches: [ mine ]
   pull_request:
-    branches: [ n4.3.1-wasm ]
+    branches: [ mine ]
 
 env:
   EM_VERSION: 2.0.8
